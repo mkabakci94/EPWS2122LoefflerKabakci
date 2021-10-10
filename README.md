@@ -1,1 +1,6 @@
-# EPWS2122LoefflerKabakci
+# Entwicklungsprojekt WiSe21/22
+
+Team:
+
+       Lara Löffler
+       Merve Kabakci
