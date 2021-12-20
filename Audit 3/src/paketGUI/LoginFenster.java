@@ -89,7 +89,7 @@ public class LoginFenster extends JFrame {
             btAnmelden.setText("Anmelden");
             btAnmelden.addActionListener(new java.awt.event.ActionListener() {
                 public void actionPerformed(java.awt.event.ActionEvent e) {
-                    System.out.println("actionPerformed()"); // TODO Auto-generated Event stub actionPerformed()
+                    System.out.println("actionPerformed()"); // 
 
                     String mBenutzerEingabe = tfBenutzer.getText();
                     String mPasswortEingabe = String.valueOf(pfPasswort.getPassword());
@@ -98,7 +98,7 @@ public class LoginFenster extends JFrame {
                     loginDatenLesen(mBenutzerEingabe);
                     zuweisen();
                     boolean mAnmeldenOK	= checkPassword(mPasswortEingabe);
-                    
+
 
                 }
             });
