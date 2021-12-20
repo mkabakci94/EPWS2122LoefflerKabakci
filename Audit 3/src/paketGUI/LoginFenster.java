@@ -39,7 +39,6 @@ public class LoginFenster extends JFrame {
         if (jContentPane == null) {
             lbBackground = new JLabel();
             lbBackground.setBounds(new Rectangle(1, 0, 382, 316));
-            lbBackground.setIcon(new ImageIcon(getClass().getResource("/paketBilder/musikveraltung.gif"))); //ÄNDERN ICON
             lbBackground.setText("");
             lbPasswort = new JLabel();
             lbPasswort.setBounds(new Rectangle(190, 90, 70, 20));
@@ -99,20 +98,7 @@ public class LoginFenster extends JFrame {
                     loginDatenLesen(mBenutzerEingabe);
                     zuweisen();
                     boolean mAnmeldenOK	= checkPassword(mPasswortEingabe);
-
-                  /*  if (mAnmeldenOK)
-                    {
-                        Hauptfenster mainFenster = new Hauptfenster();
-                        mainFenster.setVisible(true);
-                        LoginFenster.this.dispose();
-                    }
-                    else
-                    {
-                        JOptionPane.showMessageDialog(null, "Falsches Passwort !");
-                        pfPasswort.setText("");
-                        pfPasswort.requestFocus();
-                    }
-*/
+                    
 
                 }
             });
